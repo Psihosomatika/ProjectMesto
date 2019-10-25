@@ -1,0 +1,5 @@
+.popup__btn-save_disabled{
+    color: rgba(0, 0, 0, .2);
+    font-size: 18px;
+    background-color:#ffffff;
+}

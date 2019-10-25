@@ -1,0 +1,11 @@
+.error-message {
+    color: #FF3333;
+    font-size: 0.8em;
+    transition: .3s;
+    padding: 0px;
+    opacity: 0;
+}
+.input-container__invalid .error-message {
+    padding: 10px;
+    opacity: 1;
+}

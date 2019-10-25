@@ -1,0 +1,10 @@
+.user-info__edit-btn{
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 38px;
+    height: 18px;
+    box-sizing: border-box;
+}

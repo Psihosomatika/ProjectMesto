@@ -1,0 +1,9 @@
+.popup__container{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-size: contain;
+    background-position:top right;
+    position: relative;
+    background-repeat: no-repeat;
+}
