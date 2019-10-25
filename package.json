@@ -1,0 +1,25 @@
+{
+  "name": "projectmesto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psihosomatika/ProjectMesto.git"
+  },
+  "author": "Diana Rukavishnikova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psihosomatika/ProjectMesto/issues"
+  },
+  "homepage": "https://github.com/Psihosomatika/ProjectMesto#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
