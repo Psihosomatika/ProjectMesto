@@ -1,3 +1,4 @@
+import "./pages/index.css";
 const popupPlace = document.querySelector('.popup_place');//карточка на добавление нового места
 
 const buttonUserInfo = document.querySelector('.user-info__button');//кнопка + в профиле пользователя
