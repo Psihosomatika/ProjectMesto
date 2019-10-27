@@ -1,7 +1,7 @@
 import Card from './Card.js';
 import {placesList, array} from './var';
 
-export default class CardList{ //класс для хранения и отрисовки карточек
+export default class CardList{ //класс для хранения и отрисовки карточек! 
   constructor (container,initialCards){
     this.container = container;
     this.initialCards = initialCards;

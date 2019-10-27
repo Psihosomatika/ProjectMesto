@@ -1,4 +1,4 @@
-export default class Popup{//класс для всплывающего окна
+export default class Popup{//класс для всплывающего окна 
   constructor(container, button){
     this.container = container;
 
@@ -22,5 +22,3 @@ export default class Popup{//класс для всплывающего окна
     this.container.classList.remove('popup_is-opened')
   }
 }
-
-

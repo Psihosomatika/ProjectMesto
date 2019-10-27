@@ -44,7 +44,7 @@ export default class Validate{
         errorElement.textContent = element.validationMessage;
         this.activateError(errorElement);
         return false
-      } else if (!this.checkTheLength(element)) {//если элемент не прошел дополнительную валидацию, то выводим сообщение об ошибке 2
+      } else if (!this.checkTheLength(element)) {// если элемент не прошел дополнительную валидацию, то выводим сообщение об ошибке 2
         const errorMessage = 'Должно быть от 2 до 30 символов';
         errorElement.textContent = errorMessage;
         this.activateError(errorElement);

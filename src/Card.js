@@ -1,5 +1,5 @@
 import {popupImg2} from './PopupImage.js';
-import {popupProfile2} from './PopupProfile.js'
+import {popupProfile2} from './PopupProfile.js';
 export default class Card{ //класс создающий карточку
 
     constructor(name,link){

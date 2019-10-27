@@ -3,6 +3,7 @@ import {cardContainer} from './CardList.js'
 const popupPlace = document.querySelector('.popup_place');//карточка на добавление нового места
 const buttonUserInfo = document.querySelector('.user-info__button');//кнопка + в профиле пользователя
 //класс попапа где пользователь может добавить свою карточку
+
 class PopupPlace extends Popup{
     constructor(container,button){
       super(container, button);

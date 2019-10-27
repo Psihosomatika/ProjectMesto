@@ -5,7 +5,7 @@ import {api} from './index.js'
 const formEditProfile = document.forms.editProfile
 const validate = new Validate(formEditProfile,buttonEdit);
 const buttonEdit = document.querySelector('.user-info__edit-btn')//кнопка edit в профиле пользователя
-const popupProfile = document.querySelector('.popup_profile');//сама карточка профиля пользователя(что надо сохранить)
+const popupProfile = document.querySelector('.popup_profile');// сама карточка профиля пользователя(что надо сохранить)
 class PopupProfile extends Popup{
     constructor(container,button){
       super(container, button);

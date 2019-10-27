@@ -10,5 +10,6 @@ class PopupImage extends Popup{
     }
 }
 
+
 const popupImg2 = new PopupImage(containerPopupImage)
 export {popupImg2};
