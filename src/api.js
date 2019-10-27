@@ -16,8 +16,7 @@ export default class Api {
             return Promise.reject(`Ошибка: ${res.status}`);
         })
         .catch((err) => {
-            console.log(err);
-            console.log('Ошибка. Запрос не выполнен');
+            console.log(`Ошибка ${err}. Запрос не выполнен`);
         });
     }
     getUserInformation() {//запрос инфы о пользователе с сервера
@@ -54,3 +53,4 @@ export default class Api {
     })
     }
 }
+

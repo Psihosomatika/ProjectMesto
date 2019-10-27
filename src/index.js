@@ -8,9 +8,10 @@ import {cardContainer} from './CardList.js'
 
 
 const keyToken = '0033b03a-a304-475c-9aa3-b7023076205e'
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort3' : 'https://praktikum.tk/cohort3'
 const newUserName = document.querySelector('#newUserName'); //первое поле формы Profile (имя)
 const aboutMe = document.querySelector('#aboutMe'); //второе поле формы Profile (информация о себе)
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort3' : 'https://praktikum.tk/cohort3'
+//const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort3' : 'https://praktikum.tk/cohort3'
 //здесь был класс апи
 
 //Используется класс апи
@@ -21,8 +22,8 @@ const api = new Api({//запрос с сервера Заменила 'http://9
     'Content-Type': 'application/json'
   }
 })
+export {api};
 api.getInitialCards().then(res => {
-  console.log(res);
   cardContainer.addCards(res);
 })
 

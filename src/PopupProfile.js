@@ -1,6 +1,7 @@
 import Validate from './validate.js';
 import Popup from './Popup.js';
 import {userInfoName, userInfoJob} from './var.js';
+import {api} from './index.js'
 const formEditProfile = document.forms.editProfile
 const validate = new Validate(formEditProfile,buttonEdit);
 const buttonEdit = document.querySelector('.user-info__edit-btn')//кнопка edit в профиле пользователя
