@@ -7,8 +7,8 @@ import {userInfoName, userInfoJob, placesList} from './var.js';
 import {cardContainer} from './CardList.js'
 
 
-const keyToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTY0ZGVhMDViZDUxYjVjODIxMDMxZWEiLCJpYXQiOjE1ODM2NzAxMzYsImV4cCI6MTU4NDI3NDkzNn0.L4okk8G5yo7ut-U49hVwF3-k_2o-QZepXPQWfTmmdEA'
-const serverUrl = NODE_ENV === 'development' ? 'http://api.mestobackend.ml/' : 'https://api.mestobackend.ml/'
+const keyToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTY0ZGVhMDViZDUxYjVjODIxMDMxZWEiLCJpYXQiOjE1ODM2NzgwMDIsImV4cCI6MTU4NDI4MjgwMn0.exsO68C9ca8DDoyQZzt6jlgJpCZiyWtMeApvKPrDlrc'
+const serverUrl = NODE_ENV === 'development' ? 'http://api.mestobackend.ml' : 'https://api.mestobackend.ml'
 const newUserName = document.querySelector('#newUserName'); //первое поле формы Profile (имя)
 const aboutMe = document.querySelector('#aboutMe'); //второе поле формы Profile (информация о себе)
 
