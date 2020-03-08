@@ -6,7 +6,7 @@ export default class Api {
     }
   
     getInitialCards() {//получить начальные карты
-      return fetch(this.baseURL + '/cards',{
+      return fetch(this.baseURL + 'cards',{
             headers: this.headers
         })
         .then(res => {
@@ -20,7 +20,7 @@ export default class Api {
         });
     }
     getUserInformation() {//запрос инфы о пользователе с сервера
-      return fetch(this.baseURL + '/users/me',{
+      return fetch(this.baseURL + 'users/me',{
         headers: this.headers
     })
     .then(res => {
@@ -36,7 +36,7 @@ export default class Api {
     }
   
     sendingProfileData(name, about){//отправка данных на сервер
-      return fetch(this.baseURL + '/users/me',{
+      return fetch(this.baseURL + 'users/me',{
         method: 'PATCH',
         headers: this.headers,
         body: JSON.stringify({ name, about })
