@@ -6,8 +6,8 @@ import {popupProfile2} from './PopupProfile.js'
 import {userInfoName, userInfoJob, placesList} from './var.js';
 import {cardContainer} from './CardList.js'
 
-const keyToken = '0033b03a-a304-475c-9aa3-b7023076205e';
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort3/' : 'https://praktikum.tk/cohort3/'
+const keyToken = 'b6e8c1d3-d314-46fd-9a4c-f95ba3fc422a';
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort8/' : 'https://praktikum.tk/cohort8/';
 const newUserName = document.querySelector('#newUserName'); //первое поле формы Profile (имя)
 const aboutMe = document.querySelector('#aboutMe'); //второе поле формы Profile (информация о себе)
 
