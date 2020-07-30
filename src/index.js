@@ -6,9 +6,8 @@ import {popupProfile2} from './PopupProfile.js'
 import {userInfoName, userInfoJob, placesList} from './var.js';
 import {cardContainer} from './CardList.js'
 
-
-const keyToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTY0ZGVhMDViZDUxYjVjODIxMDMxZWEiLCJpYXQiOjE1ODM2NzgwMDIsImV4cCI6MTU4NDI4MjgwMn0.exsO68C9ca8DDoyQZzt6jlgJpCZiyWtMeApvKPrDlrc'
-const serverUrl = NODE_ENV === 'development' ? 'http://api.mestobackend.ml' : 'https://api.mestobackend.ml'
+const keyToken = '0033b03a-a304-475c-9aa3-b7023076205e';
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort3/' : 'https://praktikum.tk/cohort3/'
 const newUserName = document.querySelector('#newUserName'); //первое поле формы Profile (имя)
 const aboutMe = document.querySelector('#aboutMe'); //второе поле формы Profile (информация о себе)
 
