@@ -7,7 +7,8 @@ import {userInfoName, userInfoJob, placesList} from './var.js';
 import {cardContainer} from './CardList.js'
 
 const keyToken = 'b6e8c1d3-d314-46fd-9a4c-f95ba3fc422a';
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort8/' : 'https://praktikum.tk/cohort8/';
+const serverUrl = NODE_ENV === 'development' ?  'http://nomoreparties.co/cohort8/' : 'https://nomoreparties.co/cohort8/';
+//'http://praktikum.tk/cohort8/' : 'https://praktikum.tk/cohort8/';
 const newUserName = document.querySelector('#newUserName'); //первое поле формы Profile (имя)
 const aboutMe = document.querySelector('#aboutMe'); //второе поле формы Profile (информация о себе)
 
